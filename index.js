@@ -1,9 +1,9 @@
  //define your array here
-function destructivelyAppendKitten(){
-  kittens.push('Ralph');
+function destructivelyAppendKitten(name){
+  kittens.push(name);
 }
-function destructivelyPrependKitten(){
-  kittens.shift('Ralph');
+function destructivelyPrependKitten(name){
+  kittens.shift(name);
 }
 function destructivelyRemoveLastKitten(){
   kittens.pop();
