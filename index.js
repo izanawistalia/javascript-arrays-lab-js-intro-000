@@ -19,4 +19,12 @@ function prependKitten(name){
   var narr = [...kittens, name]
   return narr;
 }
+function removeLastKitten(){
+  var obj = kittens.slice(0,kittens.length-1)
+  return obj;
+}
+function removeFirstKitten(){
+  var obj = kittens.slice(1)
+  return obj;
+}
 var kittens = ['Milo','Otis','Garfield'];
