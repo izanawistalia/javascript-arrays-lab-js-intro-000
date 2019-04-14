@@ -16,7 +16,7 @@ function appendKitten(name){
    return narr;
 }
 function prependKitten(name){
-  var narr = [...kittens, name]
+  var narr = [ name ,...kittens]
   return narr;
 }
 function removeLastKitten(){
