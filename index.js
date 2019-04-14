@@ -3,13 +3,13 @@ function destructivelyAppendKitten(name){
   kittens.push(name);
 }
 function destructivelyPrependKitten(name){
-  kittens.shift(name);
+  kittens.unshift(name);
 }
 function destructivelyRemoveLastKitten(){
   kittens.pop();
 }
 function destructivelyRemoveFirstKitten(){
-  kittens.unshift();
+  kittens.shift();
 }
 function appendKitten(name){
    var narr = kittens.concat(name)
